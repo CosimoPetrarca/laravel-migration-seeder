@@ -24,6 +24,7 @@ return new class extends Migration
             $table->unsignedTinyInteger('num_carriages');
             $table->boolean('in_time')->default(1);
             $table->boolean('cancelled')->default(0);
+            $table->timestamps();
         });
     }
 
