@@ -7,7 +7,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Faker\Generator as faker;
 
-         /*    $table->string('company', 20);
+         /* $table->string('company', 20);
             $table->string('departure_station', 30);
             $table->string('arrival_station', 30);
             $table->dateTimeTz('departure_time'); 
